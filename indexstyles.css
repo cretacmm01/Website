@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 15px;
+  }
+  
+  section {
+    padding: 15px;
+  }
+  
+  ul {
+    font-size: 16px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .skills li {
+    font-size: 14px;
+  }
+}
+/*Background colors*/
+
+* {
+  background-color: lavender;
+  font-family: 'Calibri', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*Horizontal Navigation Styles*/
+ 
+body > header > img {
+  display: block;
+  width: 100%;
+}
+
+body > header > nav#topLinks {
+background-color: rgb(51, 52, 45);
+color: rgb(79, 163, 90);
+line-height: 1.7em;
+text-align: right;
+padding: 5px 10px 5px 0px;
+}
+nav {
+ background-color: #af7ddf;
+ color: #7b32cfd0;
+ text-align: center;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin: 0 10px;
+}
+
+nav a {
+color: #62be5f;
+text-decoration: none;
+font-size: 18px;
+padding: 10px;
+display: inline-block;
+}
+
+/*Left Column Styles */
+
+section#leftColumn{
+  clear: left;
+  float:left;
+  width:33%;
+}
+
+/*Picture Float */
+img {
+  float: right;
+}
+
+
+/* Aside Styles */
+
+aside {
+	background-color: rgba(145, 93, 228, 0.719);
+  border: 4px double;
+  border-radius: 30px;
+	float: right;
+	margin-right: 25%;
+	padding: 15px;
+	width: 50%;	 
+}
+
+aside h1 {
+	color: rgb(45, 93, 62);	
+	font-weight: normal;
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+aside li {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+aside li.newGroup {
+	margin-top: 20px;
+}
+
+nav#cyberSecuritylinks a {
+	color: rgba(250, 31, 31, 0.959);
+	text-decoration: underline;
+}
+
+/* Article Styles */
+article h1 {
+  text-shadow: rgb(181, 211, 181) 2PX 2PX 1px;
+}
+
+/* Figure Box */
+figure {
+  border-style: solid;
+  border-width: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+figure > img {
+  display: grid;
+  width: 10%;
+}
+
+/* Transformation Styles  */
+figure#figure1 {
+  transform: rotate(20deg);
+}
+
+#delay {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}

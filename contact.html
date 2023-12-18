@@ -1,0 +1,119 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <meta name="description" content=""  />
+    <meta name="viewport" content="widthxdevice-width, initial-scale=1" />
+    <link rel="stylesheet" href="contactstyles.css">
+    <link rel="stylesheet" media="screen" href="contactstyles.css" />
+
+</head>
+<body>
+    <header>
+    <nav>
+    <h1>
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>  
+            <li><a href="contact.html">Contact</a></li> 
+
+       </ul> 
+    </h1>
+    </nav>
+    </header>
+
+    <form 
+    id="Contact"
+    action="https://bscacad3.buffalostate.edu/~cretacmm01"
+    method="POST"
+    >
+  
+  <fieldset id="contInfo">
+  <legend>Contact Information</legend>
+
+  <label for="Name">Name:</label>
+  <input type="text" id="Name" name="contName"
+  placeholder="Enter Name" />
+ 
+
+
+
+  <label for="Phone">Phone Number:</label>
+  <input type="text" id="phone" name="contPhone"
+  placeholder="Enter Phone Number" />
+ 
+  
+  <label for="Email">Email:</label>
+  <input type="text" id="email" name="contEmail" placeholder="Enter email" />
+ 
+
+<form action="/submit-form" method="post">
+  <input type="submit" value="Submit">
+
+</form>
+</fieldset> 
+
+    <fieldset id="expInfo">
+      <legend>Contact me for any job queries!</legend>
+      
+      <label for="textbox">Why are you contacting</label>
+     <textarea rows=""5" cols="40">Enter text here</textarea>
+      <label for="checkbox">What form of contact you prefer</label>
+      <input type="checkbox" value="Phone" name="Preference">Phome
+      <input type="checkbox" value="Email" name="Preference">Email
+      <input type="checkbox" value="SMS" name="Preference">SMS
+      <label for="Radio Buttons">Would you like to recieve SMS newsletters?</label>
+      <label for="option1">Yes</label>
+      <input type="radio" id="option1" name="options" value="1">
+      <label for="option2">No</label>
+      <input type="radio" id="option2" name="options" value="2">
+      <form action="/submit-form" method="post">
+        <input type="submit" value="Submit">
+        <input name=“custZip”pattern=“^\d{5}$” />
+      </form>
+    </fieldset> 
+    </form>
+
+
+    <table id="pricing">
+
+        <colgroup>
+         <col id="firstCol">
+         <col class="dataCols" span="2">
+        </colgroup>
+
+        <thead>
+          <tr>
+            <th rowspan="2">Ways To Contact</th>
+            <th>Information</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>Email Address</th>
+            <td>mia.cetacci@gmail.com</td>
+           </tr>
+           <tr>
+            <th>Phone Number</th>
+            <td>xxx-xxx-xxxx</td>
+           </tr>
+           <tr>
+            <th>Mailing Address</th>
+            <td>1300 Elmwood Ave, Buffalo NY 14213</td>
+           </tr>
+
+        </tbody>
+      </table>
+
+      
+    <video controls>
+      <source src="coding.mp4" type="video/mp4">
+  </video>
+  <audio controls>
+      <source src="simple-lofi-hip-hop-track.mp3" type="audio/mpeg">
+    </audio>
+    
+    
+     </body>

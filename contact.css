@@ -1,0 +1,154 @@
+@charset "utf-8";
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 15px;
+  }
+  
+  section {
+    padding: 15px;
+  }
+  
+  ul {
+    font-size: 16px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .skills li {
+    font-size: 14px;
+  }
+}
+/*Background colors*/
+* {
+    background-image: url("cool-background.png");
+    background-repeat: repeat;
+    font-family: 'Gill Sans', 'Calibri', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ /*Horizontal Navigation Styles*/
+ 
+ 
+ body > header > img {
+    display: block;
+    width: 100%;
+}
+
+body > header > nav#topLinks {
+   background-color: rgb(51, 52, 45);
+   color: rgb(79, 163, 90);
+   line-height: 1.7em;
+   text-align: right;
+   padding: 5px 10px 5px 0px;
+}
+nav {
+   background-color: #af7ddf;
+   color: #7b32cfd0;
+   text-align: center;
+ }
+ 
+ nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ nav li {
+ display: inline-block;
+ margin: 0 10px;
+ }
+ 
+ nav a {
+ color: #62be5f;
+ text-decoration: none;
+ font-size: 18px;
+ padding: 10px;
+ display: inline-block;
+ }
+ 
+ 
+/* Table Styles */
+table{
+    background: linear-gradient(180deg, rgb(190,215,255), black);
+    border: 5px solid gray;
+  }
+  
+  
+  th, td {
+    border: 3px solid gray;
+    line-height: 1.4em;
+    padding: 8px;
+  }
+  
+  th {
+    background: transparent;
+    color: rgb(6, 13, 17);
+    font-weight: normal;
+  }
+  
+  td {
+    color: rgb(12, 0, 1);
+    font-size: 0.9em;
+    vertical-align: top;
+  }
+  
+  
+  /* Column Styles */
+  col#firstCol {
+    width: 24%;
+  }
+  
+  col.dataCols {
+    width: 19%;
+  }
+  
+  
+  /* Table Header Styles */
+  thead > tr {
+    height: 60px;
+  }
+  
+  thead > tr:first-of-type > th:first-of-type {
+    font-size: 2em;
+  }
+  
+  thead > tr:first-of-type > th:not(:first-of-type) {
+    background-color: transparent;
+    color: black;
+  }
+  
+  div.formRow {
+    display:flex;
+    flex-flow: row wrap;
+    margin: 7px  0; 
+  }
+
+  div.formRow > * {
+    flex: 1 1 150px;
+  }
+
+  form#Contact {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  
+  form#Contact > fieldset {
+    flex: 1 1 300px;
+    background-color: aqua;
+    border-radius: 20px;
+    font-size: .85em;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  legend {
+    background-color: beige;
+    color: bisque;
+    padding: 5px;
+  }

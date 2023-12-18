@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 15px;
+  }
+  
+  section {
+    padding: 15px;
+  }
+  
+  ul {
+    font-size: 16px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .skills li {
+    font-size: 14px;
+  }
+}
+html {
+  background-color: rgb(163, 18, 182);
+}
+
+body {
+  background-color: rgb(82, 30, 223);
+  font-family: Verdana, Geneva, Arial, sans-serif; 	
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;  
+}
+
+
+ 
+/*Background colors*/
+
+
+ nav {
+   background-color: #9c43f0;
+   color: #ebdf42d0;
+   text-align: center;
+ }
+ 
+ nav ul {
+   list-style: none;
+   margin: 10px;
+   padding: 10px;
+ }
+ 
+ nav li {
+ display: inline-block;
+ margin: 0 10px;
+ }
+ 
+ nav a {
+ color: #e20000;
+ text-decoration: none;
+ font-size: 18px;
+ padding: 10px;
+ display: inline-block;
+ }
+ 
+ a:visited, a:link {
+   color: rgb(7, 107, 74);
+ }
+ 
+ nav a:active, a:hover {
+   color:coral;
+ }
+ 
+   
+ form#Contact > fieldset {
+  flex: 1 1 500px;
+  background-color: aqua;
+  border-radius: 20px;
+  font-size: .85em;
+  padding: 20px;
+  margin: 20px;
+}
+
+legend {
+  background-color: beige;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+div.formRow {
+  display:flex;
+  flex-flow: row wrap;
+  margin: 7px  0; 
+}
+
+div.formRow > * {
+  flex: 1 1 150px;
+}
+
+form#Contact {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Table Styles */
+table{
+    background: linear-gradient(180deg, rgb(84, 145, 243), rgb(124, 38, 236));
+    border: 5px solid rgb(106, 140, 252);
+  }
+  
+  
+  th, td {
+    border: 3px solid rgb(93, 121, 248);
+    line-height: 1.4em;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #4286ebd0;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+  }
+  
+  td {
+    color: rgb(12, 0, 1);
+    font-size: 0.9em;
+    vertical-align: top;
+  }
+  
+  
+  /* Column Styles */
+  col#firstCol {
+    width: 24%;
+  }
+  
+  col.dataCols {
+    width: 19%;
+  }
+  
+  
+  /* Table Header Styles */
+  thead > tr {
+    height: 60px;
+  }
+  
+  thead > tr:first-of-type > th:first-of-type {
+    font-size: 2em;
+  }
+  
+  thead > tr:first-of-type > th:not(:first-of-type) {
+    background-color: #4286ebd0;
+    color: black;
+  }
+  
+    /* Audio Styles */
+audio, video {
+  display: block;
+  width: 70%;
+  margin: 10px auto;
+  box-shadow: rgb(51, 51, 51) 8px 8px 15px;
+}
+
+html {
+  background-image: url('cool-background.png');
+
+    font-family: 'Gill Sans', 'Calibri', Calibri, 'Trebuchet MS', sans-serif;
+ }
